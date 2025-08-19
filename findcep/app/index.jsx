@@ -9,7 +9,7 @@ import Toast, { BaseToast, ErrorToast } from "react-native-toast-message";
 export default function Index() {
   const [cep, setCep] = useState("");
   const [jsonCep, setJsonCep] = useState({});
-  // const [mostrarCard, setMostrarCard] = useState(false);
+ 
 
   
   const toastConfig = {
